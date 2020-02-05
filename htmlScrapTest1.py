@@ -13,11 +13,12 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 #url = "http://www.fanfiction.net/u/1634629/Crukix" //Issue with custom font, will search for ways around
-=======
-#url = "http://www.fanfiction.net/u/1634629/Crukix"
-url="https://www.fanfiction.net/u/8877203/KyKyuKai"
-html = urlopen(url)
 
+url = "http://www.fanfiction.net/u/1634629/Crukix"
+#url="https://www.fanfiction.net/u/8877203/KyKyuKai"
+#Weird. THis url isn't working
+html = urlopen(url)
+#The issue is with fonts. Hmm..
 
 
 
