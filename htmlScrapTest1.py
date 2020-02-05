@@ -13,7 +13,7 @@
 from bs4 import BeautifulSoup
 
 #url = "http://www.fanfiction.net/u/1634629/Crukix"
-url="https://www.fanfiction.net/u/12219229/MissBraixen"
+url="https://www.fanfiction.net/u/8877203/KyKyuKai"
 html = urlopen(url)
 
 
