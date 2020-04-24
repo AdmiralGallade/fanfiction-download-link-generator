@@ -12,17 +12,17 @@ from urllib.request import urlopen
 
 from bs4 import BeautifulSoup
 
-#url = "http://www.fanfiction.net/u/1634629/Crukix" //Issue with custom font, will search for ways around
+#url = "Insert url" //Issue with custom font, will search for ways around
 
-url="https://www.fanfiction.net/u/8877203/KyKyuKai"
+url=""
 #Weird. THis url isn't working
 html = urlopen(url)
 #The issue is with fonts. Hmm..
 
 
 
-#url="https://www.fanfiction.net/u/2293605/Little-Miss-Firebright"
-#html = urlopen(url)
+
+
 soup = BeautifulSoup(html,"lxml")
 type(soup)
 #print(soup.prettify()) //test to see if the program is error free
