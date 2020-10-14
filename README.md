@@ -1,4 +1,4 @@
-# fanfiction generator.
+# Fanfiction generator.
 My first rep
 
 # Important: Use alongside https://fanfictiondownloader.net/#/home 
